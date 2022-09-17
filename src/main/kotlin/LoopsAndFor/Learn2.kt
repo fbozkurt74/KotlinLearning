@@ -1,6 +1,17 @@
 package LoopsAndFor
 
 fun main() {
+
+    /**
+     * 3 FARLI SEKILDE FOR YAZILABILIR
+     * VALUE in list                         şeklinde value değerlerini alabiliriz
+     * index in list.indices                 şeklinde index değerlerini alabiliriz
+     * (index, value) in list.withIndex()    şeklinde index,value değerlerini alabiliriz.
+     */
+//     var number=0
+//    while (number<5){
+//        print("${number++}, ")
+//    }
 //        val countryCodeArray= arrayOf("tr","fr","az","en")
 //
 //        for (value in countryCodeArray){
