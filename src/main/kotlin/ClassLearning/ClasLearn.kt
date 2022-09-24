@@ -28,6 +28,9 @@ fun main() {
 //    val car0 = Car(4, "Red")
 //    val car1 = Car(4, statu = "C")
     val car2 = Car(4,statu = "C", age = 3)
+
+
+
 }
 
 fun String.printLog() {
