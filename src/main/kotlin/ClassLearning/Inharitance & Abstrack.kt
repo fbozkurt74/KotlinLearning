@@ -1,6 +1,17 @@
 package ClassLearning
 
 /**
+ * Enkapsülation Bir class'ın içindeki değişkenleri private de tutup o değişkene erişecek fonksiyonu public te tutmakdır.
+ * kot simens Daha iyisini yazabilirim. Sonra buraya bacacağım
+ * poliformizm çok biçimlilik ;Bir üst klasın alt classlarda fonksiyonlarının veya değişkenlerinin anlamlarına yeni anlam yüklemektir.
+ * super Üst classdaki işleri yap ayrıca benim dediklerimide yap
+ * override Üst klasda yaptığımız işe bir şeyler eklemek veya değişiklik yapmak istedğimizde kullanırız.
+ * backing field bellekte yer tutma olayı. Bir değişken eğer bellekte yer tutmuyor ise property dir. field değildir. Get ve set fonksiyonları yazılıyordur.
+ *
+ */
+
+/**
+ * Abstract class bir sözleşmedir.
  * final ve open modifier'ları kullanmak anlamsız ve yanlıştır.
  * abstract olarak yazılmış class'a yeni eklenen tüm abstract yapılar, tüm child classlarda override edilmek zorundadır.
  * eğer abstract class'ınıza eklemek istediğiniz opsiyonel yapılar varsa, bunları chill classların tamamında override etmek zorundadır. Eger
